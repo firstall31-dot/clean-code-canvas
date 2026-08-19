@@ -53,7 +53,7 @@ function NarrativeCard({
         <Icon className="size-5" />
         <h3 className="type-label">{title}</h3>
       </div>
-      <p className="leading-relaxed text-foreground/70">{body}</p>
+      <p className="type-body text-foreground/70">{body}</p>
     </div>
   );
 }

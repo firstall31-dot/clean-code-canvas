@@ -44,10 +44,10 @@ export function ProjectsExplorer() {
           counts={explorer.counts}
         />
 
-        <div className="type-body mb-8 flex flex-wrap items-center justify-between gap-3 text-foreground/90 font-medium">
+        <div className="type-body mb-8 flex flex-wrap items-center justify-between gap-3 text-foreground/90">
           <p>
             {tr("projects.index.showing")}{" "}
-            <span className="font-bold text-foreground">{explorer.filtered.length}</span>{" "}
+            <span className="type-body-strong text-foreground">{explorer.filtered.length}</span>{" "}
             {tr("projects.index.projectsWord")}
             {explorer.totalPages > 1 &&
               ` · ${tr("projects.index.page")} ${explorer.page} / ${explorer.totalPages}`}

@@ -64,7 +64,7 @@ export function ExperiencePreview() {
           viewport={{ once: true, amount: 0.4 }}
           transition={{ duration: 0.5, ease: EASE }}
         >
-          <h2 className="type-h2-lg text-center">
+          <h2 className="type-h2 text-center">
             {tr("events.title")}
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-center type-lead text-muted-foreground">
@@ -110,7 +110,7 @@ export function ExperiencePreview() {
                   <Icon className="size-3.5" />
                   {tr(`events.tab.${id}`)}
                   <span
-                    className={`rounded-md px-1.5 py-0.5 text-3xs font-bold ${
+                    className={`rounded-md px-1.5 py-0.5 type-tag ${
                       active ? "bg-background/20" : "bg-foreground/10"
                     }`}
                   >
@@ -284,7 +284,7 @@ export function ExperiencePreview() {
                               <span
                                 key={tech}
                                 dir="ltr"
-                                className={`rounded-lg px-2.5 py-1 text-2xs font-bold ${
+                                className={`rounded-lg px-2.5 py-1 type-tag ${
                                   featured
                                     ? "bg-background/15"
                                     : "bg-foreground/5 border border-border"

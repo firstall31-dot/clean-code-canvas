@@ -68,7 +68,7 @@ function SkillsPage() {
                     <span
                       key={skill}
                       dir="ltr"
-                      className="rounded-xl border border-border bg-foreground/10 px-4 py-1.5 type-body font-semibold text-card-foreground shadow-sm"
+                      className="rounded-xl border border-border bg-foreground/10 px-4 py-1.5 type-body-strong text-card-foreground shadow-sm"
                     >
                       {skill}
                     </span>

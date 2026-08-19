@@ -422,7 +422,9 @@
 /* Handwritten accent voice — the single place the script face is allowed. */
 @utility type-script {
   font-family: var(--font-script);
-  font-size: clamp(2.25rem, 5vw, 3.75rem);
+  /* Script faces read ~15% smaller at the same px, so this step sits a touch
+     above `type-h2` optically while measuring the same band. */
+  font-size: clamp(2rem, 3.9vw, 3.125rem);
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: 0;
@@ -436,6 +438,25 @@
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.6;
+}
+
+/* Emphasised body run — form labels, key/value rows, inline stats. The single
+ * replacement for every `type-body font-semibold` / `font-bold` pairing. */
+@utility type-body-strong {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.65;
+}
+
+/* Small pill/badge text (tech tags, status chips). Same size as `type-micro`
+ * but keeps its natural case, so tech names read as written. */
+@utility type-tag {
+  font-family: var(--font-sans);
+  font-size: var(--text-2xs);
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
 }
 
 /* Dense meta line: dates, org · location, inline facts. Replaces `text-xs

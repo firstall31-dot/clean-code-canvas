@@ -69,7 +69,7 @@ export function ProjectsToolbar({
             <SelectTrigger
               id="project-sort"
               aria-label={tr("projects.index.sort")}
-              className="h-9 w-full gap-2 rounded-xl border-border bg-foreground/10 px-3 type-control font-bold text-card-foreground shadow-none transition-all hover:bg-foreground/15 focus:ring-0 md:w-44"
+              className="h-9 w-full gap-2 rounded-xl border-border bg-foreground/10 px-3 type-control text-card-foreground shadow-none transition-all hover:bg-foreground/15 focus:ring-0 md:w-44"
             >
               <div className="flex min-w-0 flex-1 items-center gap-2 whitespace-nowrap text-start">
                 <ArrowUpDown className="size-4 shrink-0 text-primary" />
@@ -135,7 +135,7 @@ function ViewButton({
       title={label}
       className={`inline-flex size-9 items-center justify-center rounded-xl transition-all ${
         active
-          ? "bg-foreground text-background font-bold shadow-sm"
+          ? "bg-foreground text-background shadow-sm"
           : "text-foreground/70 hover:text-foreground"
       }`}
     >

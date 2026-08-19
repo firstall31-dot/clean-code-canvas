@@ -117,13 +117,13 @@ export function WelcomeModal() {
             {tr("welcome.body")}
           </p>
 
-          <p className="mt-4 type-body font-semibold text-accent">{tr("welcome.highlight")}</p>
+          <p className="mt-4 type-body-strong text-accent">{tr("welcome.highlight")}</p>
 
           <div className="mt-8 grid grid-cols-1 gap-3">
             <Link
               to="/contact"
               onClick={close}
-              className="btn-accent w-full items-center justify-center gap-2 whitespace-nowrap py-4 type-body-sm font-semibold"
+              className="btn-accent w-full items-center justify-center gap-2 whitespace-nowrap py-4 type-body-sm"
             >
               {tr("welcome.primary")}
               <ArrowRight className="h-4 w-4 rtl:rotate-180" />
@@ -131,7 +131,7 @@ export function WelcomeModal() {
             <Link
               to="/projects"
               onClick={close}
-              className="btn-accent-outline w-full items-center justify-center gap-2 whitespace-nowrap py-4 type-body-sm font-semibold"
+              className="btn-accent-outline w-full items-center justify-center gap-2 whitespace-nowrap py-4 type-body-sm"
             >
               {tr("welcome.secondary")}
             </Link>

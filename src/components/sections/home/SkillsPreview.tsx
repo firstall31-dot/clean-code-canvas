@@ -35,7 +35,7 @@ export function SkillsPreview() {
                     </span>
                   ))}
                   {group.skills.length > 5 && (
-                    <span className="rounded-xl px-3 py-1.5 type-body font-semibold text-accent">
+                    <span className="rounded-xl px-3 py-1.5 type-body-strong text-accent">
                       +{group.skills.length - 5}
                     </span>
                   )}

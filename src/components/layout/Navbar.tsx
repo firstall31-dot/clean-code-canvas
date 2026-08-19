@@ -94,7 +94,7 @@ export function Navbar() {
           </div>
 
           {/* MOSTAFA SAMIR Text */}
-          <div className="keep-latin flex flex-col text-start type-micro text-3xs text-foreground">
+          <div className="keep-latin flex flex-col text-start type-micro text-foreground">
             <span>MOSTAFA</span>
             <span>SAMIR</span>
           </div>
@@ -209,7 +209,7 @@ export function Navbar() {
               href="https://github.com/Mostafa-SAID7"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 type-body font-bold text-foreground hover:opacity-75"
+              className="inline-flex items-center gap-2 type-body-strong text-foreground hover:opacity-75"
             >
               <Github className="size-4" /> GitHub
             </a>
@@ -218,7 +218,7 @@ export function Navbar() {
               href="https://linkedin.com/in/mostafasamirsaid"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 type-body font-bold text-foreground hover:opacity-75"
+              className="inline-flex items-center gap-2 type-body-strong text-foreground hover:opacity-75"
             >
               <Linkedin className="size-4" /> LinkedIn
             </a>
