@@ -63,7 +63,7 @@ export function Contact({ showHeading = true }: { showHeading?: boolean } = {}) 
             <div>
               <label
                 htmlFor="contact-name"
-                className="mb-2 block type-body font-semibold text-card-foreground"
+                className="mb-2 block type-body-strong text-card-foreground"
               >
                 {tr("contact.name")}
               </label>
@@ -86,7 +86,7 @@ export function Contact({ showHeading = true }: { showHeading?: boolean } = {}) 
             <div>
               <label
                 htmlFor="contact-email"
-                className="mb-2 block type-body font-semibold text-card-foreground"
+                className="mb-2 block type-body-strong text-card-foreground"
               >
                 {tr("contact.email")}
               </label>
@@ -114,7 +114,7 @@ export function Contact({ showHeading = true }: { showHeading?: boolean } = {}) 
             <div>
               <label
                 htmlFor="contact-message"
-                className="mb-2 block type-body font-semibold text-card-foreground"
+                className="mb-2 block type-body-strong text-card-foreground"
               >
                 {tr("contact.message")}
               </label>

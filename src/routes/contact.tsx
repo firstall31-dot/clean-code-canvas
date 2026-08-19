@@ -85,12 +85,12 @@ function ContactPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   dir="ltr"
-                  className="break-all type-body font-bold text-card-foreground transition-colors hover:text-primary"
+                  className="break-all type-body-strong text-card-foreground transition-colors hover:text-primary"
                 >
                   {value}
                 </a>
               ) : (
-                <span className="type-body font-bold text-card-foreground">
+                <span className="type-body-strong text-card-foreground">
                   {valueKey ? tr(valueKey) : value}
                 </span>
               )}

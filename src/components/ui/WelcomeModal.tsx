@@ -117,7 +117,7 @@ export function WelcomeModal() {
             {tr("welcome.body")}
           </p>
 
-          <p className="mt-4 type-body font-semibold text-accent">{tr("welcome.highlight")}</p>
+          <p className="mt-4 type-body-strong text-accent">{tr("welcome.highlight")}</p>
 
           <div className="mt-8 grid grid-cols-1 gap-3">
             <Link

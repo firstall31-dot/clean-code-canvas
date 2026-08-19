@@ -111,7 +111,7 @@ export function Footer() {
   const { tr } = useI18n();
 
   return (
-    <footer className="w-full text-foreground font-sans select-none overflow-hidden">
+    <footer className="w-full text-foreground select-none overflow-hidden">
       {/* Main Footer Container */}
       <div className="w-full bg-background pt-1 pb-10 px-4 sm:px-8 md:px-12">
         <div className="mx-auto max-w-6xl">

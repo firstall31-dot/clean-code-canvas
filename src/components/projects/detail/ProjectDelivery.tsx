@@ -92,7 +92,7 @@ export function ProjectOutcomes({ detail }: { detail: ProjectDetailContent }) {
       <div className="rounded-2xl border border-border bg-card p-8">
         <ul className="space-y-4">
           {detail.outcomes.map((outcome) => (
-            <li key={outcome} className="flex gap-3 leading-relaxed text-foreground/70">
+            <li key={outcome} className="flex gap-3 type-body text-foreground/70">
               <TrendingUp className="mt-1 size-4 shrink-0 text-primary" />
               <span>{outcome}</span>
             </li>
