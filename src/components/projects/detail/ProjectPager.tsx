@@ -16,7 +16,7 @@ export function ProjectPager({ prev, next }: ProjectPagerProps) {
 
   return (
     <div className="mt-24 border-t border-border pt-16">
-      <h3 className="type-h2 mb-12 text-center text-foreground/50">
+      <h3 className="type-h3 mb-12 text-center text-foreground/50">
         {tr("project.detail.continue")}
       </h3>
       <div className="mx-auto grid max-w-4xl gap-6 md:grid-cols-2">
@@ -55,7 +55,7 @@ function PagerCard({ project, direction }: { project: Project; direction: "prev"
             </>
           )}
         </div>
-        <h4 className="type-h2 text-card-foreground">
+        <h4 className="type-h3 text-card-foreground">
           {projectTitle(project)}
         </h4>
       </div>

@@ -64,7 +64,7 @@ export function ExperiencePreview() {
           viewport={{ once: true, amount: 0.4 }}
           transition={{ duration: 0.5, ease: EASE }}
         >
-          <h2 className="type-h2-lg text-center">
+          <h2 className="type-h2 text-center">
             {tr("events.title")}
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-center type-lead text-muted-foreground">

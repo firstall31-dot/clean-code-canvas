@@ -13,7 +13,7 @@ export function RelatedProjects({ projects }: { projects: Project[] }) {
 
   return (
     <section className="mt-32 border-t border-border pt-16">
-      <h3 className="type-h2 mb-12 text-center text-foreground/50">
+      <h3 className="type-h3 mb-12 text-center text-foreground/50">
         {tr("project.detail.related")}
       </h3>
       <div className="grid gap-6 md:grid-cols-3">
