@@ -178,7 +178,7 @@ export function Footer() {
             </nav>
 
             {/* Copyright */}
-            <p className="text-center md:text-end type-micro font-bold text-foreground/80">
+            <p className="text-center md:text-end type-micro text-foreground/80">
               {tr("footer.copyright").replace("{year}", String(new Date().getFullYear()))}
               <br />
               {tr("footer.rights")}

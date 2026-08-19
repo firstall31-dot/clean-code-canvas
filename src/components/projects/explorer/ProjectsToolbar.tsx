@@ -135,7 +135,7 @@ function ViewButton({
       title={label}
       className={`inline-flex size-9 items-center justify-center rounded-xl transition-all ${
         active
-          ? "bg-foreground text-background font-bold shadow-sm"
+          ? "bg-foreground text-background shadow-sm"
           : "text-foreground/70 hover:text-foreground"
       }`}
     >

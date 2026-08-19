@@ -94,7 +94,7 @@ export function Navbar() {
           </div>
 
           {/* MOSTAFA SAMIR Text */}
-          <div className="keep-latin flex flex-col text-start type-micro text-3xs text-foreground">
+          <div className="keep-latin flex flex-col text-start type-micro text-foreground">
             <span>MOSTAFA</span>
             <span>SAMIR</span>
           </div>
